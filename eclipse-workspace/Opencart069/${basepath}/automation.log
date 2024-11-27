@@ -1,0 +1,4 @@
+21:32:33.867[main] INFO  testCases.TC001_Registration_test - ****** TC001_Registration_testis starts********s
+21:32:45.120[main] ERROR testCases.TC001_Registration_test - ******TC001_Registration_test Failed*******s
+21:32:45.121[main] DEBUG testCases.TC001_Registration_test - debug logss..s
+21:32:45.122[main] INFO  testCases.TC001_Registration_test - test Ends

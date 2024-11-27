@@ -1,0 +1,28 @@
+package testBase;
+
+import java.net.MalformedURLException;
+
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebElement;
+
+import com.google.common.collect.ImmutableMap;
+
+import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.AndroidDriver;
+
+public class test2 extends base {
+
+	public static void main(String[] args) throws MalformedURLException {
+		AndroidDriver   driver = setUp();
+		
+		driver.findElement(AppiumBy.accessibilityId("Expandable Lists")).click();
+		driver.findElement(AppiumBy.accessibilityId("1. Custom Adapter")).click(); ////android.widget.TextView[@text='Fish Names']
+		 WebElement ele = driver.findElement(AppiumBy.xpath("//android.widget.TextView[@text='Dog Names']"));
+		 //ele.click();
+		 ((JavascriptExecutor) driver).executeScript("mobile: longClickGesture", ImmutableMap.of(
+				    "elementId", ((RemoteWebElement) ele).getId(),"duration",2000));
+	
+	
+	}
+}

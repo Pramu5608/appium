@@ -1,0 +1,26 @@
+package exception;
+
+import java.lang.reflect.Array;
+
+public class count {
+
+	public static void main(String[] args) {
+	 String s = "AABBAAC"; String a =s;
+	 char[]a1= s.toCharArray();
+	 int count=0;
+	 for(int i=0;i<a1.length-1;i++) {
+		 
+			for(int j=i+1;j<a1.length-1;j++) {
+				if(i==i+1) {
+					count++;
+				}
+				if(i!=i+1) {}
+				System.out.println("the " +i + "is" +count);
+			}
+		 
+		 //System.out.println(i + count);
+	 }
+	 
+	 
+
+	}}

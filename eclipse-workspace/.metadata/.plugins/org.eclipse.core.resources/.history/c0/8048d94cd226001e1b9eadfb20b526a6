@@ -1,0 +1,39 @@
+
+public class Acc {
+private String name;
+private int  accnum ;
+private float sal;
+	public static void main(String[] args) {
+		Acc a1 = new Acc();
+		
+
+	}
+	public  void setname()
+	{
+		this.name =name;
+	}
+	public  void setaccnum()
+	{
+		this.accnum = accnum;
+	}
+	public  void  setsal()
+	{
+		this. sal= sal;
+	}
+	
+	public  String getname()
+	{
+		return name;
+	}
+	public  int  getaccnum()
+	{
+		return accnum;
+	}
+	public  float  getsal()
+	{
+		return sal;
+	}
+	
+}
+
+

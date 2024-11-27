@@ -1,0 +1,18 @@
+package testBase;
+
+import java.net.MalformedURLException;
+
+import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.AndroidDriver;
+
+public class test1 extends base{
+
+	public static void main(String[] args) throws MalformedURLException {
+		AndroidDriver   driver = setUp();
+
+		driver.findElement(AppiumBy.xpath("//android.widget.TextView[@content-desc='Preference']")).click();
+		
+
+	}
+
+}

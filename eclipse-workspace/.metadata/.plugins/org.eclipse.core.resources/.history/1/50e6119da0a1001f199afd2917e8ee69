@@ -1,0 +1,13 @@
+package javaPractice;
+
+public class removeSpace {
+
+	public static void main(String[] args) {
+		String s ="java program";
+		s.replace(" ", "");
+		System.out.println(s);
+		
+
+	}
+
+}

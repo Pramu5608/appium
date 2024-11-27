@@ -1,0 +1,16 @@
+package javaPractice;
+
+public class removeSpace {
+	
+	int a =7;
+	public removeSpace(int a) {
+		
+		this .a =a;
+	}
+
+	public static void main(String[] args) {
+		removeSpace re = new removeSpace(8);
+		System.out.println(re.a);
+		
+
+}}

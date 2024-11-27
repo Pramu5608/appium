@@ -1,0 +1,13 @@
+package javaPractice;
+
+public class reverseString {
+
+	public static void main(String[] args) {
+		String s = "pramod";
+		String rev = "";
+		
+		System.out.println(s.length());
+
+	}
+
+}

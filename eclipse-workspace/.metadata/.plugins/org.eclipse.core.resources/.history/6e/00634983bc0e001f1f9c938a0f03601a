@@ -1,0 +1,19 @@
+package exception;
+
+public class count {
+
+	public static void main(String[] args) {
+	 String s = "AABBAAC";
+	 int count=0;
+	 for(int i=0;i<s.length();i++) {
+		 if(s.charAt(i)=='A') {
+			count = count+1;
+		 }
+		
+	
+		 //System.out.println(i + count);
+	 }
+	 System.out.println("A :" + count);
+	
+
+	}}

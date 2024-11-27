@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T08:39:37 IST" name="Suite" finished-at="2024-07-03T08:39:37 IST" duration-ms="159">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T08:39:37 IST" name="FirefoxTest" finished-at="2024-07-03T08:39:37 IST" duration-ms="155">
+      <class name="testCases.TC001_Registration_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Registration_test@bcec361]" started-at="2024-07-03T08:39:37 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1719976177281" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:444)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_account_registration()[pri:0, instance:testCases.TC001_Registration_test@bcec361]" started-at="2024-07-03T08:39:37 IST" name="Verify_account_registration" finished-at="2024-07-03T08:39:37 IST" duration-ms="2" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:444)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_account_registration -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:testCases.TC001_Registration_test@bcec361]" started-at="2024-07-03T08:39:37 IST" name="tesrDown" finished-at="2024-07-03T08:39:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- testCases.TC001_Registration_test -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2024-07-03T08:39:37 IST" name="EdgeTest" finished-at="2024-07-03T08:39:37 IST" duration-ms="152">
+      <class name="testCases.TC001_Registration_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Registration_test@4b2bac3f]" started-at="2024-07-03T08:39:37 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1719976177281" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:444)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_account_registration()[pri:0, instance:testCases.TC001_Registration_test@4b2bac3f]" started-at="2024-07-03T08:39:37 IST" name="Verify_account_registration" finished-at="2024-07-03T08:39:37 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:444)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_account_registration -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:testCases.TC001_Registration_test@4b2bac3f]" started-at="2024-07-03T08:39:37 IST" name="tesrDown" finished-at="2024-07-03T08:39:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- testCases.TC001_Registration_test -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2024-07-03T08:39:37 IST" name="chromeTest" finished-at="2024-07-03T08:39:37 IST" duration-ms="154">
+      <class name="testCases.TC001_Registration_test">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:testCases.TC001_Registration_test@34e9fd99]" started-at="2024-07-03T08:39:37 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1719976177280" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:444)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Verify_account_registration()[pri:0, instance:testCases.TC001_Registration_test@34e9fd99]" started-at="2024-07-03T08:39:37 IST" name="Verify_account_registration" finished-at="2024-07-03T08:39:37 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method setup requires 1 parameters but 2 were supplied in the BeforeClass annotation.
+at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:444)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+at org.testng.internal.Parameters.createParameters(Parameters.java:684)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:306)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:833)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_account_registration -->
+        <test-method is-config="true" signature="tesrDown()[pri:0, instance:testCases.TC001_Registration_test@34e9fd99]" started-at="2024-07-03T08:39:37 IST" name="tesrDown" finished-at="2024-07-03T08:39:37 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tesrDown -->
+      </class> <!-- testCases.TC001_Registration_test -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

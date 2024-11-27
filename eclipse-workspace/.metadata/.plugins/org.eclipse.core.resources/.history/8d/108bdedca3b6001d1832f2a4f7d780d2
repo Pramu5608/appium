@@ -1,0 +1,21 @@
+package exception;
+
+import java.io.IOException;
+
+public class thro {
+
+	public static void main(String[] args) throws IOException {
+		m1();
+
+	}
+	public static void m1() throws IOException {
+		System.out.println();
+		try {
+		throw new I0Exception();}
+		catch(Exception e){
+			System.out.println(e.getMessage());
+		}
+		
+	}
+
+}

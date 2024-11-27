@@ -1,0 +1,8 @@
+2024-07-02 09:19:16 INFO  TC001_Registration_test:15 - ****** TC001_Registration_testis starts********
+2024-07-02 09:19:21 INFO  TC001_Registration_test:43 - ****** TC001_Registration_test Finished ********
+2024-07-02 09:20:15 INFO  TC001_Registration_test:15 - ****** TC001_Registration_testis starts********
+2024-07-02 09:20:25 ERROR TC001_Registration_test:39 - ******TC001_Registration_test Failed*******
+2024-07-02 09:20:25 DEBUG TC001_Registration_test:40 - Debug logs...
+2024-07-02 09:23:45 INFO  TC001_Registration_test:15 - ****** TC001_Registration_testis starts********
+2024-07-02 09:23:55 ERROR TC001_Registration_test:39 - ******TC001_Registration_test Failed*******
+2024-07-02 09:34:23 INFO  TC001_Registration_test:15 - ****** TC001_Registration_testis starts********

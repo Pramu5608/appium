@@ -1,0 +1,62 @@
+package testBase;
+
+import java.time.Duration;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.core.Logger;
+import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
+
+public class baseClass {
+	public WebDriver driver;
+	public Logger logger; 
+	
+	@BeforeClass
+	@Parameters({"Browser","chrome"})
+	public void setup(int br) {
+		logger= LogManager.getLogger(this.getClass());
+		switch(br) {
+		case 1 : driver = new ChromeDriver();break;
+		case 2 : driver = new EdgeDriver();break;
+		case 3 : driver = new FirefoxDriver();break;
+		default: System.out.println("Invalid browser"); return;
+		}
+		
+		
+		//driver = new ChromeDriver();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://tutorialsninja.com/demo/");
+		driver.manage().window().maximize();
+	}
+	@AfterClass
+	public void tesrDown() {
+		driver.quit();
+	}
+	
+	
+	public String randomString(){
+		String genaratedstring = RandomStringUtils.randomAlphabetic(5);
+		
+		return genaratedstring;
+	}
+	
+	public String randomNumber(){
+		String genaratednumber = RandomStringUtils.randomNumeric(10);
+		
+		return genaratednumber;
+	}
+	
+	public String randomAlphanumaric(){
+		String genaratednumber = RandomStringUtils.randomNumeric(3);
+		String genaratedstring = RandomStringUtils.randomAlphabetic(3);
+		return (genaratednumber+"@"+genaratedstring);
+		}
+}

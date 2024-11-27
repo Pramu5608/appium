@@ -1,0 +1,9 @@
+package data;
+
+public class cl2 {
+public static void main(String[]args) {
+	
+	cl1 c1 = new cl1();
+	c1.seta(20);
+}
+}

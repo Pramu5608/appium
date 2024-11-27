@@ -1,0 +1,21 @@
+package dataDrivenTesting;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class printRowLast {
+
+	public static void main(String[] args) throws IOException {
+		FileInputStream file =new FileInputStream(System.getProperty("user.dir")+"\\testData\\testData1.xlsx");
+		XSSFWorkbook workBook = new XSSFWorkbook(file);
+XSSFSheet sheet = workBook.getSheet("Sheet1");
+int lastrownum = sheet.getLastRowNum();
+int getLastCellNum = sheet.getRow(1).getLastCellNum();
+	}
+
+}
+
